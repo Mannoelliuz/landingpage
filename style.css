@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #024d4e 16.62%, #200d5c 85.61%);
+    padding: 18px;
+}
+
+.cabecalho {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    text-align: left; 
+}
+
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #faebd7;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.cabecalho-menu-item:hover{
+  color:#4694e3;
+
+} 
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #faebd7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400px;
+    font-size: 70px;
+    color: #faebd7;
+    position: relative;
+    top: 180px;
+    
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+    position: relative;
+    top: 190px;
+
+}
+
+
+.conteudo-principal-imagem{
+    border-radius: 50%;
+    width: 390px;
+    height: 390px;
+    margin-top: 0.1%;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 96px;
+    font-size: 20px;
+    font-weight: 90px;
+}
+
+.conteudo-secudario-escrito{
+    border-top: 0.20px solid #faebd7;
+    padding-top: 0.1px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 250px;
+    font-size: 30px;
+    color: #faebd7;
+    margin-top: 55px;
+    position: relative;
+    top: 218px;
+    
+}
+
+.conteudo-secudario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200px;
+    font-size: 18px;
+    color: #faebd7;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
